@@ -1,0 +1,76 @@
+/* 1F2937 bg */
+/* 4ADF86 random passowrd */
+/* 10B981 bg password */
+
+/* 55F991 pw text */
+/* 273549 pw bg */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  background-color: black;
+}
+
+#container {
+  height: 500px;
+  width: 500px;
+  margin: 100px auto;
+  background-color: #1f2937;
+}
+
+.main-card {
+  padding: 100px 80px 60px 40px;
+}
+
+.main-card h1 {
+  font-size: 2rem;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.sub-color {
+  color: #4adf86;
+}
+
+.tagline {
+  color: lightgray;
+}
+
+#generate-btn {
+  background-color: #10b981;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+hr {
+  color: #2f3e53;
+  margin: 40px auto;
+  width: 84%;
+}
+
+#pw-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+.pw-box-1,
+.pw-box-2 {
+  background-color: #273549;
+  height: 30px;
+  width: 200px;
+  border-radius: 4px;
+  color: #55f991;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
